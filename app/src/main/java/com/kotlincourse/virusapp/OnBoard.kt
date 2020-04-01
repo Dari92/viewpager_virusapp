@@ -13,11 +13,12 @@ class OnBoard : AppCompatActivity() {
 
         viewPager1.adapter = OnBoardAdapter()
 
+        startActivity(intent)
 
-
-       /* buttonNext.setOnClickListener{
+      /*  buttonNext.setOnClickListener{
             val intent = Intent(this, Main2Activity::class.java)
             startActivity(intent)
+
         }*/
 
     }

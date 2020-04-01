@@ -47,14 +47,20 @@ class OnBoardAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
                     buttonNext.visibility = View.VISIBLE
 
 
+
                 }
-        }
+            }
             clOnboard.setBackgroundColor(ContextCompat.getColor(context, pages[position]))
+/*
+            buttonNext.setOnClickListener {
+            val context = holder.itemView.context
+            val intent = Intent(context, Main2Activity::javaClass)
+            context.startActivity(intent)
+            } */
+        }
+
 
     }
-
-
-}
 
 
 }
